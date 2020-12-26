@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/pictures">
+        <file>org.jpg</file>
+        <file>orgg.png</file>
+        <file>orggg.png</file>
+    </qresource>
+</RCC>
