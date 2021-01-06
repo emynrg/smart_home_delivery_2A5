@@ -10,9 +10,9 @@ class historique
 {
 public:
     historique();
-    historique(int nombre,QString identifiant_reclamation, QString pourcentage_de_reclamation,QString pourcentage_augmentation ,QString date_);
+    historique(int NOMBRE_DE_RECLAMATION,QString identifiant_reclamation, QString pourcentage_de_reclamation,QString pourcentage_augmentation ,QString date_);
 
-    int getnombre(){return nombre;}
+    int getnombre(){return NOMBRE_DE_RECLAMATION;}
     QString getidentifiant_reclamation(){return identifiant_reclamation;}
     QString getpourcentage_reclamation(){return pourcentage_de_reclamation;}
     QString getpourcentage_augmentation(){return pourcentage_augmentation;}
@@ -20,7 +20,7 @@ public:
 
 
 
-    void setnombre(int nombre){this->nombre=nombre;}
+    void setnombre(int NOMBRE_DE_RECLAMATION){this->NOMBRE_DE_RECLAMATION=NOMBRE_DE_RECLAMATION;}
     void setpourcentage_de_reclamation(QString pourcentage_de_reclamation){this->pourcentage_de_reclamation=pourcentage_de_reclamation;}
     void setpourcentage_augmentation(QString pourcentage_augmentation){this->pourcentage_augmentation=pourcentage_augmentation;}
     void setidentifiant_reclamation(QString identifiant_reclamation){this->identifiant_reclamation=identifiant_reclamation;}
@@ -35,12 +35,12 @@ public:
     QSqlQueryModel * recherche (const QString & aux);
 
 private:
-    int nombre;
+    int NOMBRE_DE_RECLAMATION;
     QString identifiant_reclamation;
     QString pourcentage_de_reclamation;
     QString pourcentage_augmentation;
     QString date_;
 };
-
+//***************************************
 
 #endif // HISTORIQUE_H

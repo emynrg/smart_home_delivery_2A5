@@ -65,11 +65,50 @@ private slots:
 
     void on_pushButton_15_clicked();
 
+    void on_pdf_clicked();
+
+    void on_ajouter_reclamation_clicked();
+
+    void on_modifie_reclamation_clicked();
+
+    void on_supprimer_reclamation_clicked();
+
+    void on_retour_enregistrement_reclamation_clicked();
+
+    void on_line_customContextMenuRequested(const QPoint &pos);
+
+    void on_lineEdit_cursorPositionChanged(int arg1, int arg2);
+
+    void on_lineEdit_2_cursorPositionChanged(int arg1, int arg2);
+
+    void on_ok_modifier_reclamation_clicked();
+
+    void on_retour_modifier_reclamation_clicked();
+
+    void on_enregistrer_modifier_reclamation_clicked();
+
+    void on_lineEdit_5_cursorPositionChanged(int arg1, int arg2);
+
+    void on_ok_supprimer_reclamation_clicked();
+
+    void on_enregsiter_reclamation_page_acceuil_clicked();
+
+    void on_historique_page_acceuil_clicked();
+
+    void on_pushButton_3_clicked();
+
+    void on_pourcentage_clicked();
+
+    void on_ajouter_historique_clicked();
+
+    void on_retour_modd_historique_clicked();
+
+    void on_enregistrer_modd_historique_clicked();
+
 private:
     Ui::MainWindow *ui;
     enregistrement tmpreclamation;
     historique tmphistorique;
-
 
 };
 #endif // MAINWINDOW_H

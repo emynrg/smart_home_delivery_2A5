@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1299</width>
-    <height>666</height>
+    <width>891</width>
+    <height>556</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -982,8 +982,8 @@ QProgressBar::chunk
    <widget class="QStackedWidget" name="stackedWidget">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>-20</y>
+      <x>0</x>
+      <y>-40</y>
       <width>1141</width>
       <height>581</height>
      </rect>
@@ -992,57 +992,14 @@ QProgressBar::chunk
      <string notr="true">background-image: url(:/BG-IMG/White.png);</string>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>6</number>
     </property>
     <widget class="QWidget" name="page_1">
-     <widget class="QPushButton" name="pushButton_4">
-      <property name="geometry">
-       <rect>
-        <x>730</x>
-        <y>160</y>
-        <width>91</width>
-        <height>51</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <pointsize>9</pointsize>
-        <weight>75</weight>
-        <bold>true</bold>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">QPushButton {
-color: #7BA6B4;
-border: 2px solid #555;
-border-radius: 20px;
-border-style: outset;
-background: qradialgradient(
-cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
-radius: 1.35, stop: 0 #fff, stop: 1 #FFFFFF
-);
-padding: 0.3rem 0.2rem;
-}
-
-QPushButton:hover {
-background: qradialgradient(
-cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
-radius: 1.35, stop: 0 #fff, stop: 1 #bbb
-);
- 
-    background-color:#98FB98	;
-    border-radius: 15px;
-}</string>
-      </property>
-      <property name="text">
-       <string>R.Reclamation</string>
-      </property>
-     </widget>
      <widget class="Line" name="line">
       <property name="geometry">
        <rect>
-        <x>680</x>
-        <y>-10</y>
+        <x>710</x>
+        <y>10</y>
         <width>20</width>
         <height>461</height>
        </rect>
@@ -1108,7 +1065,7 @@ radius: 1.35, stop: 0 #fff, stop: 1 #bbb
        <string>date</string>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit">
+     <widget class="QLineEdit" name="lineEdit_numero_de_livraison">
       <property name="geometry">
        <rect>
         <x>240</x>
@@ -1118,7 +1075,7 @@ radius: 1.35, stop: 0 #fff, stop: 1 #bbb
        </rect>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_2">
+     <widget class="QLineEdit" name="lineEdit_type">
       <property name="geometry">
        <rect>
         <x>240</x>
@@ -1128,7 +1085,7 @@ radius: 1.35, stop: 0 #fff, stop: 1 #bbb
        </rect>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_3">
+     <widget class="QLineEdit" name="lineEdit_description">
       <property name="geometry">
        <rect>
         <x>240</x>
@@ -1138,7 +1095,7 @@ radius: 1.35, stop: 0 #fff, stop: 1 #bbb
        </rect>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_4">
+     <widget class="QLineEdit" name="lineEdit_date">
       <property name="geometry">
        <rect>
         <x>240</x>
@@ -1153,15 +1110,15 @@ radius: 1.35, stop: 0 #fff, stop: 1 #bbb
        <rect>
         <x>75</x>
         <y>281</y>
-        <width>591</width>
+        <width>351</width>
         <height>191</height>
        </rect>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_5">
+     <widget class="QPushButton" name="ajouter_reclamation">
       <property name="geometry">
        <rect>
-        <x>410</x>
+        <x>380</x>
         <y>50</y>
         <width>92</width>
         <height>31</height>
@@ -1171,11 +1128,11 @@ radius: 1.35, stop: 0 #fff, stop: 1 #bbb
        <string>ajouter</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_6">
+     <widget class="QPushButton" name="modifie_reclamation">
       <property name="geometry">
        <rect>
-        <x>410</x>
-        <y>130</y>
+        <x>380</x>
+        <y>110</y>
         <width>92</width>
         <height>31</height>
        </rect>
@@ -1184,11 +1141,11 @@ radius: 1.35, stop: 0 #fff, stop: 1 #bbb
        <string>modifier</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_7">
+     <widget class="QPushButton" name="retour_enregistrement_reclamation">
       <property name="geometry">
        <rect>
-        <x>580</x>
-        <y>100</y>
+        <x>440</x>
+        <y>300</y>
         <width>92</width>
         <height>23</height>
        </rect>
@@ -1197,11 +1154,11 @@ radius: 1.35, stop: 0 #fff, stop: 1 #bbb
        <string>retour</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_11">
+     <widget class="QPushButton" name="supprimer_reclamation">
       <property name="geometry">
        <rect>
-        <x>420</x>
-        <y>210</y>
+        <x>380</x>
+        <y>170</y>
         <width>92</width>
         <height>31</height>
        </rect>
@@ -1210,11 +1167,11 @@ radius: 1.35, stop: 0 #fff, stop: 1 #bbb
        <string>supprimer</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_14">
+     <widget class="QPushButton" name="pdf">
       <property name="geometry">
        <rect>
-        <x>560</x>
-        <y>30</y>
+        <x>440</x>
+        <y>260</y>
         <width>92</width>
         <height>23</height>
        </rect>
@@ -1238,7 +1195,7 @@ radius: 1.35, stop: 0 #fff, stop: 1 #bbb
        <string>entrer le num de livraison a modifier :</string>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_5">
+     <widget class="QLineEdit" name="lineEdit_num_liv_moddifier">
       <property name="geometry">
        <rect>
         <x>110</x>
@@ -1248,7 +1205,7 @@ radius: 1.35, stop: 0 #fff, stop: 1 #bbb
        </rect>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_8">
+     <widget class="QPushButton" name="ok_modifier_reclamation">
       <property name="geometry">
        <rect>
         <x>130</x>
@@ -1261,7 +1218,7 @@ radius: 1.35, stop: 0 #fff, stop: 1 #bbb
        <string>ok</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_10">
+     <widget class="QPushButton" name="retour_modifier_reclamation">
       <property name="geometry">
        <rect>
         <x>360</x>
@@ -1274,7 +1231,7 @@ radius: 1.35, stop: 0 #fff, stop: 1 #bbb
        <string>retour</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_9">
+     <widget class="QPushButton" name="enregistrer_modifier_reclamation">
       <property name="geometry">
        <rect>
         <x>280</x>
@@ -1287,7 +1244,7 @@ radius: 1.35, stop: 0 #fff, stop: 1 #bbb
        <string>enregistrer</string>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_7">
+     <widget class="QLineEdit" name="lineEdit_description_modifier">
       <property name="geometry">
        <rect>
         <x>280</x>
@@ -1310,7 +1267,7 @@ radius: 1.35, stop: 0 #fff, stop: 1 #bbb
        <string>description</string>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_8">
+     <widget class="QLineEdit" name="lineEdit_date_modifier">
       <property name="geometry">
        <rect>
         <x>280</x>
@@ -1333,7 +1290,7 @@ radius: 1.35, stop: 0 #fff, stop: 1 #bbb
        <string>type</string>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_6">
+     <widget class="QLineEdit" name="lineEdit_type_modifier">
       <property name="geometry">
        <rect>
         <x>280</x>
@@ -1371,7 +1328,7 @@ radius: 1.35, stop: 0 #fff, stop: 1 #bbb
        <string>antrer le num de livraison a suprrimer</string>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_9">
+     <widget class="QLineEdit" name="lineEdit_numero_livraison_supprimer">
       <property name="geometry">
        <rect>
         <x>390</x>
@@ -1381,7 +1338,7 @@ radius: 1.35, stop: 0 #fff, stop: 1 #bbb
        </rect>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_12">
+     <widget class="QPushButton" name="ok_supprimer_reclamation">
       <property name="geometry">
        <rect>
         <x>410</x>
@@ -1409,50 +1366,7 @@ radius: 1.35, stop: 0 #fff, stop: 1 #bbb
        <enum>Qt::Vertical</enum>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_16">
-      <property name="geometry">
-       <rect>
-        <x>710</x>
-        <y>150</y>
-        <width>91</width>
-        <height>51</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <pointsize>9</pointsize>
-        <weight>75</weight>
-        <bold>true</bold>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">QPushButton {
-color: #7BA6B4;
-border: 2px solid #555;
-border-radius: 20px;
-border-style: outset;
-background: qradialgradient(
-cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
-radius: 1.35, stop: 0 #fff, stop: 1 #FFFFFF
-);
-padding: 0.3rem 0.2rem;
-}
-
-QPushButton:hover {
-background: qradialgradient(
-cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
-radius: 1.35, stop: 0 #fff, stop: 1 #bbb
-);
- 
-    background-color:#98FB98	;
-    border-radius: 15px;
-}</string>
-      </property>
-      <property name="text">
-       <string>Réclamation</string>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton">
+     <widget class="QPushButton" name="enregsiter_reclamation_page_acceuil">
       <property name="geometry">
        <rect>
         <x>230</x>
@@ -1462,10 +1376,10 @@ radius: 1.35, stop: 0 #fff, stop: 1 #bbb
        </rect>
       </property>
       <property name="text">
-       <string>ajouter reclamation</string>
+       <string>enregistrer reclamation</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_2">
+     <widget class="QPushButton" name="historique_page_acceuil">
       <property name="geometry">
        <rect>
         <x>230</x>
@@ -1478,7 +1392,7 @@ radius: 1.35, stop: 0 #fff, stop: 1 #bbb
        <string>historique</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_3">
+     <widget class="QPushButton" name="annuler_acceuil">
       <property name="geometry">
        <rect>
         <x>230</x>
@@ -1611,14 +1525,14 @@ radius: 1.35, stop: 0 #fff, stop: 1 #bbb
      <widget class="QTableView" name="tabel_historique">
       <property name="geometry">
        <rect>
-        <x>190</x>
+        <x>200</x>
         <y>300</y>
         <width>401</width>
         <height>151</height>
        </rect>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_13">
+     <widget class="QPushButton" name="ajouter_historique">
       <property name="geometry">
        <rect>
         <x>540</x>
@@ -1661,7 +1575,7 @@ radius: 1.35, stop: 0 #fff, stop: 1 #bbb
       <property name="geometry">
        <rect>
         <x>540</x>
-        <y>270</y>
+        <y>260</y>
         <width>92</width>
         <height>23</height>
        </rect>
@@ -1706,11 +1620,11 @@ radius: 1.35, stop: 0 #fff, stop: 1 #bbb
        </rect>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_15">
+     <widget class="QPushButton" name="pourcentage">
       <property name="geometry">
        <rect>
-        <x>550</x>
-        <y>240</y>
+        <x>540</x>
+        <y>230</y>
         <width>92</width>
         <height>23</height>
        </rect>
@@ -1734,7 +1648,7 @@ radius: 1.35, stop: 0 #fff, stop: 1 #bbb
        <string>ok</string>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_10">
+     <widget class="QLineEdit" name="lineEdit_id_supp_historique">
       <property name="geometry">
        <rect>
         <x>350</x>
@@ -1785,7 +1699,7 @@ radius: 1.35, stop: 0 #fff, stop: 1 #bbb
        <string>entrer lidentifiant a mofifier </string>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_71">
+     <widget class="QLineEdit" name="lineEdit_id_modd_hist">
       <property name="geometry">
        <rect>
         <x>150</x>
@@ -1808,7 +1722,7 @@ radius: 1.35, stop: 0 #fff, stop: 1 #bbb
        <string>date</string>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_72">
+     <widget class="QLineEdit" name="lineEdit_date_modd_hist">
       <property name="geometry">
        <rect>
         <x>190</x>
@@ -1831,7 +1745,7 @@ radius: 1.35, stop: 0 #fff, stop: 1 #bbb
        <string>nombre</string>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_73">
+     <widget class="QLineEdit" name="lineEdit_nombre_modd_hist">
       <property name="geometry">
        <rect>
         <x>200</x>
@@ -1841,7 +1755,7 @@ radius: 1.35, stop: 0 #fff, stop: 1 #bbb
        </rect>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_77">
+     <widget class="QPushButton" name="retour_modd_historique">
       <property name="geometry">
        <rect>
         <x>360</x>
@@ -1854,7 +1768,7 @@ radius: 1.35, stop: 0 #fff, stop: 1 #bbb
        <string>retour</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_78">
+     <widget class="QPushButton" name="enregistrer_modd_historique">
       <property name="geometry">
        <rect>
         <x>260</x>
@@ -1880,7 +1794,7 @@ radius: 1.35, stop: 0 #fff, stop: 1 #bbb
        <string/>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_11">
+     <widget class="QLineEdit" name="lineEdit_pour_modd_hist">
       <property name="geometry">
        <rect>
         <x>570</x>
@@ -1916,7 +1830,7 @@ radius: 1.35, stop: 0 #fff, stop: 1 #bbb
        <string>pourcentage d augmentation</string>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_12">
+     <widget class="QLineEdit" name="lineEdit_aug_modd_hist">
       <property name="geometry">
        <rect>
         <x>580</x>
@@ -1934,7 +1848,7 @@ radius: 1.35, stop: 0 #fff, stop: 1 #bbb
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1299</width>
+     <width>891</width>
      <height>23</height>
     </rect>
    </property>
